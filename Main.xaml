@@ -73,7 +73,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="入力ダイアログ" sap:VirtualizedContainerService.HintSize="387.2,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="メッセージを入力してください" Title="テストダイアログです">
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="入力ダイアログ" sap:VirtualizedContainerService.HintSize="387.2,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="メッセージを入力してくださいね！" Title="テストダイアログです">
       <ui:InputDialog.Result>
         <OutArgument x:TypeArguments="x:String">[入力メッセージ]</OutArgument>
       </ui:InputDialog.Result>
